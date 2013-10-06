@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202455CC17FCABAC00BB884D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455CB17FCABAC00BB884D /* Foundation.framework */; };
+		202455CE17FCABAC00BB884D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455CD17FCABAC00BB884D /* CoreGraphics.framework */; };
+		202455D017FCABAC00BB884D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455CF17FCABAC00BB884D /* UIKit.framework */; };
+		202455D617FCABAC00BB884D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202455D417FCABAC00BB884D /* InfoPlist.strings */; };
+		202455D817FCABAC00BB884D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 202455D717FCABAC00BB884D /* main.m */; };
+		202455DC17FCABAC00BB884D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 202455DB17FCABAC00BB884D /* AppDelegate.m */; };
+		202455DF17FCABAC00BB884D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202455DD17FCABAC00BB884D /* Main_iPhone.storyboard */; };
+		202455E217FCABAC00BB884D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202455E017FCABAC00BB884D /* Main_iPad.storyboard */; };
+		202455E517FCABAC00BB884D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202455E417FCABAC00BB884D /* ViewController.m */; };
+		202455E717FCABAC00BB884D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202455E617FCABAC00BB884D /* Images.xcassets */; };
+		202455EE17FCABAC00BB884D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455ED17FCABAC00BB884D /* XCTest.framework */; };
+		202455EF17FCABAC00BB884D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455CB17FCABAC00BB884D /* Foundation.framework */; };
+		202455F017FCABAC00BB884D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202455CF17FCABAC00BB884D /* UIKit.framework */; };
+		202455F817FCABAC00BB884D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202455F617FCABAC00BB884D /* InfoPlist.strings */; };
+		202455FA17FCABAC00BB884D /* Creating_and_Taking_Advantage_of_ClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202455F917FCABAC00BB884D /* Creating_and_Taking_Advantage_of_ClassesTests.m */; };
+		2024560517FCABE900BB884D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024560417FCABE900BB884D /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202455F117FCABAC00BB884D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202455C017FCABAC00BB884D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202455C717FCABAC00BB884D;
+			remoteInfo = "Creating and Taking Advantage of Classes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202455C817FCABAC00BB884D /* Creating and Taking Advantage of Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating and Taking Advantage of Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		202455CB17FCABAC00BB884D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		202455CD17FCABAC00BB884D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		202455CF17FCABAC00BB884D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		202455D317FCABAC00BB884D /* Creating and Taking Advantage of Classes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating and Taking Advantage of Classes-Info.plist"; sourceTree = "<group>"; };
+		202455D517FCABAC00BB884D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		202455D717FCABAC00BB884D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		202455D917FCABAC00BB884D /* Creating and Taking Advantage of Classes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating and Taking Advantage of Classes-Prefix.pch"; sourceTree = "<group>"; };
+		202455DA17FCABAC00BB884D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		202455DB17FCABAC00BB884D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		202455DE17FCABAC00BB884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		202455E117FCABAC00BB884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		202455E317FCABAC00BB884D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		202455E417FCABAC00BB884D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		202455E617FCABAC00BB884D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		202455EC17FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating and Taking Advantage of ClassesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		202455ED17FCABAC00BB884D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		202455F517FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating and Taking Advantage of ClassesTests-Info.plist"; sourceTree = "<group>"; };
+		202455F717FCABAC00BB884D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		202455F917FCABAC00BB884D /* Creating_and_Taking_Advantage_of_ClassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_and_Taking_Advantage_of_ClassesTests.m; sourceTree = "<group>"; };
+		2024560317FCABE900BB884D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2024560417FCABE900BB884D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202455C517FCABAC00BB884D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455CE17FCABAC00BB884D /* CoreGraphics.framework in Frameworks */,
+				202455D017FCABAC00BB884D /* UIKit.framework in Frameworks */,
+				202455CC17FCABAC00BB884D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202455E917FCABAC00BB884D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455EE17FCABAC00BB884D /* XCTest.framework in Frameworks */,
+				202455F017FCABAC00BB884D /* UIKit.framework in Frameworks */,
+				202455EF17FCABAC00BB884D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202455BF17FCABAC00BB884D = {
+			isa = PBXGroup;
+			children = (
+				202455D117FCABAC00BB884D /* Creating and Taking Advantage of Classes */,
+				202455F317FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests */,
+				202455CA17FCABAC00BB884D /* Frameworks */,
+				202455C917FCABAC00BB884D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202455C917FCABAC00BB884D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202455C817FCABAC00BB884D /* Creating and Taking Advantage of Classes.app */,
+				202455EC17FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202455CA17FCABAC00BB884D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202455CB17FCABAC00BB884D /* Foundation.framework */,
+				202455CD17FCABAC00BB884D /* CoreGraphics.framework */,
+				202455CF17FCABAC00BB884D /* UIKit.framework */,
+				202455ED17FCABAC00BB884D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		202455D117FCABAC00BB884D /* Creating and Taking Advantage of Classes */ = {
+			isa = PBXGroup;
+			children = (
+				202455DA17FCABAC00BB884D /* AppDelegate.h */,
+				202455DB17FCABAC00BB884D /* AppDelegate.m */,
+				202455DD17FCABAC00BB884D /* Main_iPhone.storyboard */,
+				202455E017FCABAC00BB884D /* Main_iPad.storyboard */,
+				202455E317FCABAC00BB884D /* ViewController.h */,
+				202455E417FCABAC00BB884D /* ViewController.m */,
+				202455E617FCABAC00BB884D /* Images.xcassets */,
+				202455D217FCABAC00BB884D /* Supporting Files */,
+				2024560317FCABE900BB884D /* Person.h */,
+				2024560417FCABE900BB884D /* Person.m */,
+			);
+			path = "Creating and Taking Advantage of Classes";
+			sourceTree = "<group>";
+		};
+		202455D217FCABAC00BB884D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202455D317FCABAC00BB884D /* Creating and Taking Advantage of Classes-Info.plist */,
+				202455D417FCABAC00BB884D /* InfoPlist.strings */,
+				202455D717FCABAC00BB884D /* main.m */,
+				202455D917FCABAC00BB884D /* Creating and Taking Advantage of Classes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		202455F317FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				202455F917FCABAC00BB884D /* Creating_and_Taking_Advantage_of_ClassesTests.m */,
+				202455F417FCABAC00BB884D /* Supporting Files */,
+			);
+			path = "Creating and Taking Advantage of ClassesTests";
+			sourceTree = "<group>";
+		};
+		202455F417FCABAC00BB884D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202455F517FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests-Info.plist */,
+				202455F617FCABAC00BB884D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202455C717FCABAC00BB884D /* Creating and Taking Advantage of Classes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202455FD17FCABAC00BB884D /* Build configuration list for PBXNativeTarget "Creating and Taking Advantage of Classes" */;
+			buildPhases = (
+				202455C417FCABAC00BB884D /* Sources */,
+				202455C517FCABAC00BB884D /* Frameworks */,
+				202455C617FCABAC00BB884D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating and Taking Advantage of Classes";
+			productName = "Creating and Taking Advantage of Classes";
+			productReference = 202455C817FCABAC00BB884D /* Creating and Taking Advantage of Classes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202455EB17FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2024560017FCABAC00BB884D /* Build configuration list for PBXNativeTarget "Creating and Taking Advantage of ClassesTests" */;
+			buildPhases = (
+				202455E817FCABAC00BB884D /* Sources */,
+				202455E917FCABAC00BB884D /* Frameworks */,
+				202455EA17FCABAC00BB884D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202455F217FCABAC00BB884D /* PBXTargetDependency */,
+			);
+			name = "Creating and Taking Advantage of ClassesTests";
+			productName = "Creating and Taking Advantage of ClassesTests";
+			productReference = 202455EC17FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202455C017FCABAC00BB884D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lázaro Márquez";
+				TargetAttributes = {
+					202455EB17FCABAC00BB884D = {
+						TestTargetID = 202455C717FCABAC00BB884D;
+					};
+				};
+			};
+			buildConfigurationList = 202455C317FCABAC00BB884D /* Build configuration list for PBXProject "Creating and Taking Advantage of Classes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202455BF17FCABAC00BB884D;
+			productRefGroup = 202455C917FCABAC00BB884D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202455C717FCABAC00BB884D /* Creating and Taking Advantage of Classes */,
+				202455EB17FCABAC00BB884D /* Creating and Taking Advantage of ClassesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202455C617FCABAC00BB884D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455E217FCABAC00BB884D /* Main_iPad.storyboard in Resources */,
+				202455E717FCABAC00BB884D /* Images.xcassets in Resources */,
+				202455DF17FCABAC00BB884D /* Main_iPhone.storyboard in Resources */,
+				202455D617FCABAC00BB884D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202455EA17FCABAC00BB884D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455F817FCABAC00BB884D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202455C417FCABAC00BB884D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455E517FCABAC00BB884D /* ViewController.m in Sources */,
+				202455DC17FCABAC00BB884D /* AppDelegate.m in Sources */,
+				2024560517FCABE900BB884D /* Person.m in Sources */,
+				202455D817FCABAC00BB884D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202455E817FCABAC00BB884D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202455FA17FCABAC00BB884D /* Creating_and_Taking_Advantage_of_ClassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202455F217FCABAC00BB884D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202455C717FCABAC00BB884D /* Creating and Taking Advantage of Classes */;
+			targetProxy = 202455F117FCABAC00BB884D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202455D417FCABAC00BB884D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202455D517FCABAC00BB884D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		202455DD17FCABAC00BB884D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202455DE17FCABAC00BB884D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		202455E017FCABAC00BB884D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202455E117FCABAC00BB884D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		202455F617FCABAC00BB884D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202455F717FCABAC00BB884D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202455FB17FCABAC00BB884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202455FC17FCABAC00BB884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202455FE17FCABAC00BB884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		202455FF17FCABAC00BB884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2024560117FCABAC00BB884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Creating and Taking Advantage of Classes.app/Creating and Taking Advantage of Classes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Creating and Taking Advantage of ClassesTests/Creating and Taking Advantage of ClassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2024560217FCABAC00BB884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Creating and Taking Advantage of Classes.app/Creating and Taking Advantage of Classes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Taking Advantage of Classes/Creating and Taking Advantage of Classes-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Taking Advantage of ClassesTests/Creating and Taking Advantage of ClassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202455C317FCABAC00BB884D /* Build configuration list for PBXProject "Creating and Taking Advantage of Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202455FB17FCABAC00BB884D /* Debug */,
+				202455FC17FCABAC00BB884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202455FD17FCABAC00BB884D /* Build configuration list for PBXNativeTarget "Creating and Taking Advantage of Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202455FE17FCABAC00BB884D /* Debug */,
+				202455FF17FCABAC00BB884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2024560017FCABAC00BB884D /* Build configuration list for PBXNativeTarget "Creating and Taking Advantage of ClassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2024560117FCABAC00BB884D /* Debug */,
+				2024560217FCABAC00BB884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202455C017FCABAC00BB884D /* Project object */;
+}
