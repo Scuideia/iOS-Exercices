@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A2E818A-891D-4B4E-8F69-BA8F07EE0E75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Picking the Date</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9057AE21-DC9B-437F-A0FB-6CADF0B9BB43</key>
+		<string>https://github.com/Scuideia/iOS-Exercices.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unit 1/Picking the Date/Picking the Date.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9057AE21-DC9B-437F-A0FB-6CADF0B9BB43</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Scuideia/iOS-Exercices.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9057AE21-DC9B-437F-A0FB-6CADF0B9BB43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9057AE21-DC9B-437F-A0FB-6CADF0B9BB43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Exercices</string>
+		</dict>
+	</array>
+</dict>
+</plist>
