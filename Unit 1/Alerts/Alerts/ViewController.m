@@ -65,7 +65,7 @@
                               message:message
                               delegate:self
                               cancelButtonTitle:[self noButtonTitle]
-                              otherButtonTitles:[self yesButtonTitle], nil];
+                              otherButtonTitles:[self yesButtonTitle],@"otro",@"otro",@"otro", nil];
     
     [alertView setAlertViewStyle:UIAlertViewStyleDefault];
     
